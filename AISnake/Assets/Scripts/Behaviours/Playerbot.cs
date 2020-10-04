@@ -10,7 +10,6 @@ public class Playerbot : AIBehaviour
     public override void Init(GameObject own, SnakeMovement ownMove)
     {
         base.Init(own, ownMove);
-        ownerMovement.StartCoroutine(UpdateDirEveryXSeconds(timeChangeDir));
     }
 
     //seria interessante ter um controlador com o colisor que define o mundo pra poder gerar pontos dentro desse colisor
@@ -38,6 +37,7 @@ public class Playerbot : AIBehaviour
         owner.transform.rotation = Quaternion.Slerp(owner.transform.rotation, rotation, ownerMovement.speed * Time.deltaTime);
     }
 
+    /*
     IEnumerator UpdateDirEveryXSeconds(float x)
     {
         yield return new WaitForSeconds(x);
@@ -58,4 +58,5 @@ public class Playerbot : AIBehaviour
 
         ownerMovement.StartCoroutine(UpdateDirEveryXSeconds(x));
     }
+    */
 }

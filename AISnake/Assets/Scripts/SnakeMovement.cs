@@ -65,7 +65,8 @@ public class SnakeMovement : MonoBehaviour
     public Transform bodyObject;
     void OnTriggerEnter2D(Collider2D other)
     {
-  
+        
+        // Colisão com outra cobra
         if (other.gameObject.transform.tag == "Body")
         {
           
@@ -83,6 +84,7 @@ public class SnakeMovement : MonoBehaviour
            
         }
 
+        // Colisão com Orb
         if (other.transform.tag == "Orb")
         {
 

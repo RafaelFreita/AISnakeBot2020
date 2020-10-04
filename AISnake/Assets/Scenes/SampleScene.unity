@@ -294,7 +294,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -335,12 +335,12 @@ GameObject:
   - component: {fileID: 653582796}
   - component: {fileID: 653582795}
   - component: {fileID: 653582794}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &653582794
 BoxCollider2D:
@@ -443,12 +443,12 @@ GameObject:
   - component: {fileID: 767032200}
   - component: {fileID: 767032199}
   - component: {fileID: 767032198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &767032198
 BoxCollider2D:
@@ -712,8 +712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snakes: []
   behaviors:
-  - {fileID: 11400000, guid: 66cd5294d179eb04bb909d92843609e6, type: 2}
-  - {fileID: 11400000, guid: 160418bca43e39d4c85ea4b4c53179e4, type: 2}
+  - {fileID: 11400000, guid: 014f954eb2bfc60499dbcde5ad90f76b, type: 2}
+  - {fileID: 11400000, guid: 014f954eb2bfc60499dbcde5ad90f76b, type: 2}
   OrbsPerSnake: 1
   NumberSnakes: 5
   OrbSpawnTime: 1
@@ -800,12 +800,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1669441343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1669441343
 Transform:
@@ -901,8 +901,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731704936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -4.11, z: 5}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalPosition: {x: -0.35, y: -1.4, z: 5}
+  m_LocalScale: {x: 101.49009, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -931,12 +931,12 @@ GameObject:
   - component: {fileID: 2097720505}
   - component: {fileID: 2097720504}
   - component: {fileID: 2097720503}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &2097720503
 BoxCollider2D:
@@ -1039,12 +1039,12 @@ GameObject:
   - component: {fileID: 2127225367}
   - component: {fileID: 2127225366}
   - component: {fileID: 2127225365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &2127225365
 BoxCollider2D:

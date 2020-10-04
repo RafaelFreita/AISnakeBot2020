@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 715530183872724468}
   - component: {fileID: 5130084514370015390}
   - component: {fileID: 5201994328022095538}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: nickname
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7236031485603931413}
   - component: {fileID: 8111099065311127628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3446147340356149059}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SnakeBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 2452060251524811380}
   - component: {fileID: 2749502559859887906}
   - component: {fileID: 2619237102310303441}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
